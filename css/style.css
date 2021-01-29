@@ -1,9 +1,12 @@
+body{
+    background-color:#fcf3eb;
+}
 .navbar-brand{
     font-size: 25px;
     font-family: 'Exo 2', sans-serif;
 }
 a{
-    color: #000000;
+    color: #ffffff;
 }
 #hero{
     width: 100%;
@@ -30,9 +33,16 @@ a{
     color: #fff;
     text-align: center;
 }
-#menu h4{
-    font-size: 25px;
+.btn-light {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    margin: 0%;
 }
-#menu .card {
-    height: 32rem;
+.btn-check:focus+.btn-light, .btn-light:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
+}
+.btn-warning{
+    background-color:#ff963a;
+    color: rgb(255, 255, 255);
 }

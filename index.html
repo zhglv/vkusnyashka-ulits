@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Вкусняшка Улиц</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
@@ -11,22 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Нав-бар -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fafafa;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#050201;">
         <div class="container-xxl">
-
-            <nav class="navbar navbar-light" style="background-color: #fafafa;">
+            <nav class="navbar navbar-dark" >
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" width="50" height="50"
+                        <img src="img/navlogo.png" width="50" height="50"
                             class="d-inline-block align-center">
                             Вкусняшка Улиц
-                    </a>
-                    
+                    </a>  
                 </div>
             </nav>
-
-            <nav class="navbar navbar-light" style="background-color: #fafafa;">
+            <nav class="navbar navbar-dark" >
                 <div class="container-fluid">
                     <ul class="nav">
                         <li class="nav-item">
@@ -41,128 +39,117 @@
                     </span>
                 </div>
             </nav>
-
         </div>
     </nav>
     </header>
 
+    <!-- Шапка -->
     <section id="hero" class="d-flex aling-items-center justify-content-center">
-        <div class="container-xxl my-auto">
+        <div class="container-xxl w-75 my-auto">
             <div class="row justify-content-center">
-                <div class="col col-md-6 col-lg-8">
+                <div class="col-4">
+                    <img src="img/logo.png" width="300" height="300" class="d-flex">
+                </div>
+                <div class="col-8">
                     <h1>Вкусняшка Улиц</h1>
                     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laborum ex. Dicta, nemo! Nobis ab iusto quibusdam qui ratione nesciunt. Sed sint, a quidem fugiat quam repellat tenetur, expedita delectus nisi iusto numquam tempora alias molestiae voluptates quis labore aliquid vero ea aperiam nulla, sequi dignissimos adipisci. Quod, delectus eveniet?</h2>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="menu my-5" id="menu">
-        <div class="container-xxl text-center">
+    
+    <!-- Меню заведения -->
+    <section class="menu" id="menu">
+        <div class="container-xxl w-75 text-center">
             <p class="h2 my-5">Меню</p>
-            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner w-75 mx-auto">
-                    <div class="carousel-item active">
-                        <div class="row justify-content-md-center">
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c1.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Шаурма</h4>
-                                        <p>Классика - 130 р.</p>
-                                        <p>Сырная - 140 р.</p>
-                                        <p>Чесночная - 140 р.</p>
-                                        <p>Шашлычная свининка - 150 р.</p>
-                                        <p>Чикен Тейсти - 160 р.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c2.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Шашлык</h4>
-                                        <p>Свинина - 230 р.</p>
-                                        <p>Курица - 180 р.</p>
-                                        <p>Люля-Кебаб - 180 р.</p>
-                                        <p>Порции 200 гр.</p>
-                                        <p>Может подаваться в лаваше</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c3.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Напитки</h4>
-                                        <p>Кофе растворимый/3в1 - 30 р.</p>
-                                        <p>Чай черный/зеленый 20 р.</p>
-                                        <p>Капучино 200/400 - 60/90 р.</p>
-                                        <p>Латте 200/400 - 60/90 р.</p>
-                                        <p>Мокачино 200/400 - 60/90 р.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row justify-content-md-center">
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c4.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Хот-дог</h4>
-                                        <p>Классика - 70 р.</p>
-                                        <p>Шашлычный - 100 р.</p>
-                                        <p>Люля-дог - 100 р.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c5.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Донер XXL</h4>
-                                        <p>Куриный - 140 р.</p>
-                                        <p>Со Свининкой - 160 р.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card w-100 shadow-sm text-center">
-                                    <img src="img/c6.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h4>Самса</h4>
-                                        <p>Говяжья - 65 р.</p>
-                                        <p>Куриная - 65 р.</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row justify-content-md-center my-5">
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Шаурма</h3>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#sclModal">Классика - 130 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#schModal">Сырная - 140 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#sgModal">Чесночная - 140 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#spModal">Шашлычная Свининка - 150 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#sctModal">Чикен Тейсти - 160 р.</button>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </a>
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c2.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Шашлык</h3>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bpModal">Свинина - 230 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bcModal">Курица - 180 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#blModal">Люля-Кебаб - 180 р.</button><br>
+                            <button type="button" class="btn btn-light">Порции 200 гр.</button>
+                            <button type="button" class="btn btn-light">Может подаваться в лаваше</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Напитки</h3>
+                            <p>Кофе растворимый/3в1 - 30 р.</p>
+                            <p>Чай черный/зеленый 20 р.</p>
+                            <p>Капучино 200/400 - 60/90 р.</p>
+                            <p>Латте 200/400 - 60/90 р.</p>
+                            <p>Мокачино 200/400 - 60/90 р.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c4.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Хот-дог</h3>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#hcModal">Классика - 70 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#hbModal">Шашлычный - 100 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#hlModal">Люля-дог - 100 р.</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c5.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Донер XXL</h3>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#dcModal">Куриный - 140 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#dpModal">Со Свининкой - 160 р.</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-items-stretch align-items-stretch">
+                    <div class="card w-100 shadow-sm text-center">
+                        <img src="img/c6.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3>Самса</h3>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#tbModal">Говяжья - 65 р.</button><br>
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#tcModal">Куриная - 55 р.</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </section>
-
+    
+    <!-- Карта Yandex -->
     <section class="map my-5" id="map">
         <div class="container-fluid text-center">
         <p class="h2 my-5">Как добраться?</p>
-        <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0"
-                marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3,%20%D0%B0%D0%BC%D1%83%D0%BD%D0%B4%D1%81%D0%B5%D0%BD%D0%B0%2069%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%201+(Kafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-            </div>
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a4795938a840b1fe43be6a904c60aa6f4062305a9cd4ed29ec7cead391b4b32&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
     </section>
 
-    <footer class="bg-light text-center text-lg-start">
+    <!-- Футер -->
+    <footer class="text-center text-dark text-lg-start" style="background-color:#ffd6a4;">
         <!-- Grid container -->
         <div class="container p-4">
             <!--Grid row-->
@@ -196,13 +183,276 @@
         <!-- Grid container -->
     
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0)">
-            © 2020 Copyright:
-            <a class="text-dark">Сделал Я</a>
+        <div class="text-center p-3">
+            © 2021 Copyright
         </div>
         <!-- Copyright -->
     </footer>
+
+    <!-- Модальные окна Шаурма -->
+    <div class="modal fade" id="sclModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шаурма Классика - 130 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Курица приготовленная на мангале, лаваш пшеничный, пекинская капуста, огурец, помидор, лук, авторские соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="schModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шаурма Сырная - 140 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Курица приготовленная на мангале, сырный лаваш, сыр, пекинская капуста, огурец, помидор, лук, авторские
+                    соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <div class="modal fade" id="sgModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шаурма Чесночная - 140 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Курица приготовленная на мангале, чесночный лаваш, пекинская капуста, огурец, помидор, лук, авторские
+                    соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="spModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шаурма Шашлычная Свининка - 150 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Свинина приготовленная на мангале, лаваш пшеничный, пекинская капуста, огурец, помидор, лук, авторские
+                    соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sctModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шаурма Чикен Тейсти - 160 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Курица приготовленная на мангале, лаваш сырный, сыр, салатный лист, пекинская капуста, огурец, помидор, лук, авторские
+                    соусы, соус Чикен Тейсти
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальные окна Шашлык -->
+    <div class="modal fade" id="bpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шашлык Свинина - 230 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Мясо свиное, приговленное на мангале, лук, соус, лепешка
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bcModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Шашлык Курица - 180 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Нежное куриное филе, приговленное на мангале, лук, соус, лепешка
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Люля-Кебаб - 180 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Фарш говяжий, фарш куринный, лук, перец, соус, лепешка
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальные окна Хот-дог -->
+    <div class="modal fade" id="hcModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Хот-дог Классика - 70 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Булочка, сосиска, огурец, помидор, лук, авторские соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Хот-дог Шашлычный - 100 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Булочка, свинина, приготовленная на мангале, огурец, помидор, лук, авторские соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hlModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Люля-дог - 100 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Булочка, Люля-Кебаб из говядины, приготовленный на мангале, огурец, помидор, лук, авторские соусы
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальные окна Донер -->
+    <div class="modal fade" id="dcModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Куриный Донер - 140 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Курица, приготовленная на мангале, картошка фри, огурец, помидор, чесночно-майонезный соус
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Куриный Со Свининкой - 160 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Свинина, приготовленная на мангале, картошка фри, огурец, помидор, чесночно-майонезный соус
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальные окна Самса -->
+    <div class="modal fade" id="tbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Самса Говяжья - 65 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Слоеное тесто, филе говядины, лук, перец
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tcModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Самса Куриная - 55 р.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    Слоеное тесто, филе куриное, лук, перец
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>    
 </body>
